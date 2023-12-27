@@ -23,7 +23,6 @@ function getShippingCost(country) {
   return `Shipping to ${country} will cost ${shippingCost} credits`;
 }
 
-// Перевірка роботи функції з різними вхідними параметрами
 console.log(getShippingCost("Australia")); // "Shipping to Australia will cost 170 credits"
 console.log(getShippingCost("Germany")); // "Sorry, there is no delivery to your country"
 console.log(getShippingCost("China")); // "Shipping to China will cost 100 credits"
